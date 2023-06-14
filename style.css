@@ -7,18 +7,26 @@
     font-style: normal;
     font-weight: normal;
     line-height: 18px;
+ 
+    
 }
 
 
 body {
     background-color: #E5E5E5;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 
 }
 
 header {
     background-color: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 
 
 }
@@ -26,7 +34,7 @@ header {
 .container {
     Width: 375px;
     background-color: #F4F4F4;
-    margin: 0 auto;
+  
     margin-top: 100px;
 
 }
@@ -36,8 +44,7 @@ h1 {
 
     font-size: 24px;
     color: #f4f4f4;
-    text-align: center;
-    padding-top: 25px;
+    
 
 }
 
@@ -124,13 +131,19 @@ section {
 
     border: 1 px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 
 }
 
 .currency-container {
-
-    text-align: center;
-    padding: 10px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2px;
 }
 
 .currency-name {
@@ -148,10 +161,3 @@ section {
 
 }
 
-.arrow{
-
-
-    margin: 15px auto;
-    display: block;
-    
-}
